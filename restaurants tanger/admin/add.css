@@ -1,0 +1,106 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fef9f3;
+    color: #646464;
+}
+
+header {
+    background-color: #cdac80;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 28px;
+}
+header .logo a{
+    text-decoration: none;
+    color: inherit;
+}
+main {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #cdac80;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Form Styles */
+.add-restaurant-form {
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #cdac80;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #8b6e4e;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cdac80;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.btn-submit,
+.btn-reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit {
+    background-color: #8b6e4e;
+    color: #ffffff;
+}
+
+.btn-submit:hover {
+    background-color: #b5a475;
+}
+
+.btn-reset {
+    background-color: #f0dfc1;
+    color: #8b6e4e;
+}
+
+.btn-reset:hover {
+    background-color: #cdac80;
+    color: #ffffff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+}

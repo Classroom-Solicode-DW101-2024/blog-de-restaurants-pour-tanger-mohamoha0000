@@ -1,0 +1,112 @@
+[
+    {
+      "id": 1,
+      "name": "Restaurant Kebdani",
+      "address": "Rue de la Kasbah, Tangier, Morocco",
+      "telephone": "+212 5393-37039",
+      "email": "example@gmail.com",
+      "cuisine_type": "Moroccan, Mediterranean",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/24/e0/71/52/tajine-d-agneau.jpg?w=1400&h=-1&s=1",
+      "rating": "4.5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 2,
+      "name": "Restaurant Ahlen",
+      "address": "19 Rue des Postes, Tangier, Morocco",
+      "telephone": "+212 5393-71782",
+      "email": "example@gmail.com",
+      "cuisine_type": "Moroccan, Healthy",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/2a/60/29/getlstd-property-photo.jpg?w=1100&h=-1&s=1",
+      "rating": "5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 3,
+      "name": "Alma Kitchen & Coffee",
+      "address": "Place du Marché, Tangier, Morocco",
+      "telephone": "+212 5393-71234",
+      "email": "example@gmail.com",
+      "cuisine_type": "Cafe, International",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/ff/16/32/diner-with-friends.jpg?w=1100&h=600&s=1",
+      "rating": "5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 4,
+      "name": "Restaurant Al Maimouni",
+      "address": "Petit Socco, Tangier, Morocco",
+      "telephone": "+212 5393-74567",
+      "email": "example@gmail.com",
+      "cuisine_type": "Moroccan, Mediterranean",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/26/0d/eb/78/nice-viue.jpg?w=1400&h=-1&s=1",
+      "rating": "4.5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 5,
+      "name": "Le Saveur du Poisson",
+      "address": "Escalier Waller, Tangier, Morocco",
+      "telephone": "+212 5393-78901",
+      "email": "example@gmail.com",
+      "cuisine_type": "Moroccan, Seafood",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0a/fc/b3/e2/20160416-135836-largejpg.jpg?w=900&h=500&s=1",
+      "rating": "4.5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 6,
+      "name": "L'Olivier Restaurant",
+      "address": "Avenue Beethoven, Tangier, Morocco",
+      "telephone": "+212 5393-71234",
+      "email": "example@gmail.com",
+      "cuisine_type": "French, European",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2c/18/5b/b4/caption.jpg?w=1000&h=-1&s=1",
+      "rating": "5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 7,
+      "name": "El Morocco Club",
+      "address": "Place du Tabor, Tangier, Morocco",
+      "telephone": "+212 5393-76543",
+      "email": "example@gmail.com",
+      "cuisine_type": "French, Moroccan",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/07/49/18/8a/el-morocco-club.jpg?w=1000&h=-1&s=1",
+      "rating": "4.5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 8,
+      "name": "Abou Tayssir - Syrian Restaurant",
+      "address": "Rue de la Liberté, Tangier, Morocco",
+      "telephone": "+212 5393-79876",
+      "email": "example@gmail.com",
+      "cuisine_type": "Mediterranean, Healthy",
+      "image_url": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/a5/47/ec/best-hummus-in-town.jpg?w=900&h=500&s=1",
+      "rating": "5 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 9,
+      "name": "Restaurant L'Ocean",
+      "address": "Plage de Sidi Kacem, Tangier, Morocco",
+      "telephone": "+212 5393-71234",
+      "email": "example@gmail.com",
+      "cuisine_type": "French, Seafood",
+      "image_url": "https://media-cdn.tripadvisor.com/media/photo-s/05/3d/68/94/restaurant-l-ocean.jpg",
+      "rating": "4 ⭐",
+      "website": "https://example.com"
+    },
+    {
+      "id": 10,
+      "name": "Restaurant Vandalucia",
+      "address": "Rue de Belgique, Tangier, Morocco",
+      "telephone": "+212 5393-72345",
+      "email": "example@gmail.com",
+      "cuisine_type": "African, Moroccan",
+      "image_url": "https://img.restaurantguru.com/re19-Restaurant-Vandalucia-interior.jpg",
+      "rating": "4.5 ⭐",
+      "website": "https://example.com"
+    }
+  ]

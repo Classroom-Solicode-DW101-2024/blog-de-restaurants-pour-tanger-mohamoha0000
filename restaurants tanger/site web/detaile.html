@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>details</title>
+    <link rel="stylesheet" href="detaile.css">
+</head>
+<body>
+    <header>
+        <div class="input-search">
+            <div class="logo" style="font-size: 38px; color: #cdac80;">
+                <a href="index.html"><span class="title-1">restaurants</span></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <h2>Restaurants</h2>
+            </div>
+            <div class="footer-links">
+                <a href="#about-us">About Us</a>
+                <a href="#contact">Contact</a>
+                <a href="#privacy">Privacy Policy</a>
+                <a href="#terms">Terms of Service</a>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Twitter</a>
+                <a href="#" class="social-icon">Instagram</a>
+            </div>
+            <div class="footer-copy">
+                <p>&copy; 2024 Restaurants. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const params = new URLSearchParams(window.location.search);
+    const id = params.get('id');
+
+    const main=document.querySelector("main");
+    const  div =document.createElement("div");
+    div.classList.add("boxdetail")
+    async function fetchData() {
+    try {
+        const response = await fetch('http://localhost:3000/restaurants/'+id);
+        const data = await response.json();
+        console.log("fetched data", data);
+        update(data);
+    } catch (error) {
+        console.log('error fetching', error);
+    }
+}
+function update(data) {
+div.innerHTML = `
+<div>
+    <img src="${data.image_url}">
+</div>
+
+<div>
+    <h2>${data.name}</h2>
+    <span>${data.cuisine_type}</span>
+    <span>${data.address}</span>
+    <span>${data.telephone}</span>
+    <span>${data.email}</span>
+    <span>${data.website}</span>
+    <span>${data.rating}</span>
+</div>
+    `
+    main.appendChild(div)
+}
+fetchData();
+</script>
+</html>
